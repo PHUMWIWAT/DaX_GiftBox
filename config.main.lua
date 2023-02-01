@@ -1,4 +1,4 @@
-DAXTON = DAXTON or {} local sec = 1000 local min = 10000
+DAXTON = DAXTON or {} local sec = 1000 local min = 60*sec
 
 ESX = exports["es_extended"]:getSharedObject()
 
