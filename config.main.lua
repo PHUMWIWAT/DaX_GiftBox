@@ -1,6 +1,6 @@
 DAXTON = DAXTON or {} local sec = 1000 local min = 60*sec
 
-ESX = exports["es_extended"]:getSharedObject()
+ESX = exports["es_extended"]:getSharedObject()  --# การดึง Function จาก extended
 
 DAXTON = {
 
