@@ -11,7 +11,8 @@ DAXTON = {
         --         ({ Type = ("item"), Name = ("a_gold"), Count = ({ 1,2 }), Percent = (100) }),
         --         ({ Type = ("weapon"), Name = ("WEAPON_BOTTLE"), Count = ({ 1,1 }), Percent = (100) }),
         --         ({ Type = ("money"), Name = ("money"), Count = ({ 1000,2500 }), Percent = (100) }),
-        --         ({ Type = ("vehicle"), Name = ("furia"), Plate = ("GTA 555"), Percent = (100) }),
+        --         ({ Type = ("vehicle"), Name = ("furia"), Plate = ("GTA 555"), Percent = (100) }),  --# change plate
+        --         ({ Type = ("vehicle"), Name = ("thrax"), Percent = (100) }),    --# random plate
         --     }),
         --     RemoveItem = true;   --# เปิด/ปิด การลบไอเท่ม
         -- }),
@@ -21,7 +22,8 @@ DAXTON = {
                 ({ Type = ("item"), Name = ("a_gold"), Count = ({ 1,2 }), Percent = (100) }),
                 ({ Type = ("weapon"), Name = ("WEAPON_BOTTLE"), Count = ({ 1,1 }), Percent = (100) }),
                 ({ Type = ("money"), Name = ("money"), Count = ({ 1000,2500 }), Percent = (100) }),
-                ({ Type = ("vehicle"), Name = ("furia"), Plate = ("GTA 555"), Percent = (100) }),
+                ({ Type = ("vehicle"), Name = ("furia"), Plate = ("GTA 555"), Percent = (100) }),  --# change plate
+                ({ Type = ("vehicle"), Name = ("thrax"), Percent = (100) }),    --# random plate
             }),
             RemoveItem = true;
         }),
