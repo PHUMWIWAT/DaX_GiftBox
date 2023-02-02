@@ -27,8 +27,8 @@ for love,you in pairs(DAXTON.SetBox) do
         if DAXTON.SetBox[love].RemoveItem == true then xPlayer.removeInventoryItem(love, 1) end;
     end);
 	Citizen.CreateThread(function()
-		print(('LOAD ITEM USE : %s'):format(love))
-	end)
+		print(('*[^2LOAD-DATA^7] REGISTER ITEM USE : (\27[42m%s\27[0m)'):format(love))
+	end);
 end;
 for i = 48,  57 do table.insert(NumberCharset, string.char(i)) end
 for i = 65,  90 do table.insert(Charset, string.char(i)) end
