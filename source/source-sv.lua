@@ -21,7 +21,11 @@ for love,you in pairs(DAXTON.SetBox) do
 					xPlayer.addWeapon(DAXTON.SetBox[love].Add[fuck].Name, random);
 				end
 			elseif DAXTON.SetBox[love].Add[fuck].Type == "vehicle" then
-				AddCars(source,GetPlayerIdentifiers(source)[1], GeneratePlate(), GetHashKey(DAXTON.SetBox[love].Add[fuck].Name))
+				if DAXTON.SetBox[love].Add[fuck].Plate == nil then
+					AddCars(source,GetPlayerIdentifiers(source)[1], GeneratePlate(), GetHashKey(DAXTON.SetBox[love].Add[fuck].Name))
+				elseif DAXTON.SetBox[love].Add[fuck].Plate then
+					AddCars(source,GetPlayerIdentifiers(source)[1], DAXTON.SetBox[love].Add[fuck].Plate, GetHashKey(DAXTON.SetBox[love].Add[fuck].Name))
+				end
 			end
 		end
         if DAXTON.SetBox[love].RemoveItem == true then xPlayer.removeInventoryItem(love, 1) end;
